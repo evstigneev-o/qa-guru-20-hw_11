@@ -31,7 +31,7 @@ public class WebSteps {
         return this;
     }
     @Step("Проверка, что Issues с номером {number} имеет название {repo}")
-    public WebSteps issueNameCheck(int number, String repo){
+    public WebSteps checkIssueName(int number, String repo){
         $("#issue_" + number + "_link").shouldHave(text(repo));
         return this;
     }

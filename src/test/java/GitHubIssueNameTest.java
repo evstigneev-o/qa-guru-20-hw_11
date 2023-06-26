@@ -61,7 +61,7 @@ public class GitHubIssueNameTest {
                 .searchForRepository(REPOSITORY)
                 .clickOnRepositoryLink(REPOSITORY)
                 .clickOnIssueTab()
-                .issueNameCheck(ISSUE, ISSUE_NAME)
+                .checkIssueName(ISSUE, ISSUE_NAME)
                 .takeScreenshot();
     }
 }
