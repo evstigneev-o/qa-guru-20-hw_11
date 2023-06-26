@@ -26,7 +26,7 @@ public class WebSteps {
         return this;
     }
     @Step("Переход во вкладку Issues")
-    public WebSteps  clickOnIssueTab(){
+    public WebSteps clickOnIssueTab(){
         $("#issues-tab").click();
         return this;
     }
